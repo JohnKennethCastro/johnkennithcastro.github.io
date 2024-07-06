@@ -77,17 +77,6 @@ function calculateChange() {
     }
 }
 
-function pay() {
-
-    carts.textContent = "";
-
-    total.value = "";
-    cash.value = "";
-    change.value = "";
-
-    alert(" Thanks! So excited for your new Laptop Arrived");
-}
-
 
 qty1.addEventListener("keyup", addOrder);
 qty2.addEventListener("keyup", addOrder);
